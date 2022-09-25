@@ -191,3 +191,9 @@ footer p{
     padding-left: 30px;
 }
 
+.copy{
+    position: absolute;
+    top: 90px;
+    right: 30px;
+    color: #ffe993;
+}
