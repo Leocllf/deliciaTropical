@@ -72,13 +72,12 @@ body {
 }
 
 .artigo p {
-    width: 250px;
+    width: 180px;
     font-family: sans-serif;
     font-size: smaller;
     color: white;
     font-weight: normal;
     letter-spacing: 0.8px;
-    line-height: 0.1px;
 }
 
 button {
@@ -214,4 +213,285 @@ footer p {
     top: 90px;
     right: 30px;
     color: #ffe993;
+}
+
+@media screen and (max-width: 1024px) {
+
+    body {
+        width: 800px;
+    }
+
+    .folhaEsquerda {
+        width: 300px;
+        top: -50px;
+    }
+
+    .folhaDireita {
+        width: 300px;
+        top: 300px;
+    }
+
+    .copo1 {
+        width: 400px;
+        left: 20px;
+    }
+
+    .artigo {
+        top: 120px;
+        right: 50px;
+    }
+
+    .sec2 {
+        margin-top: 50px;
+        height: 680px;
+    }
+
+    .copo2 {
+        width: 500px;
+        top: 50px;
+    }
+
+    .splash {
+        width: 900px;
+        bottom: -15px;
+        left: -320px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    body {
+        position: relative;
+        /* background: #731682; */
+        width: 300px;
+        /* margin: none; */
+    }
+
+    .fundo {
+        position: absolute;
+        width: 100%;
+        height: 550px;
+        background-color: #895eb100;
+        margin: none;
+        margin-top: 100px;
+        border-radius: 40px;
+        left: 180px;
+    }
+
+    .folhaEsquerda {
+        /* position: absolute; */
+        width: 200px;
+        top: 0px;
+        left: -30px;
+    }
+
+    .folhaDireita {
+        /* position: absolute; */
+        width: 200px;
+        top: 20px;
+        right: -380px;
+    }
+
+    .sec1 {
+        position: relative;
+        width: 360px;
+        height: 640px;
+    }
+
+    .logo1 {
+        position: absolute;
+        width: 600px;
+        top: 0px;
+    }
+
+    .copo1 {
+        position: absolute;
+        width: 500px;
+        left: 90px;
+        top: 300px;
+    }
+
+
+
+    .artigo {
+        position: relative;
+        position: absolute;
+        width: 330px;
+        top: 600px;
+        right: -100px;
+    }
+
+    .artigo h1 {
+        font-family: 'Pacifico', cursive;
+        font-size: 40px;
+        text-align: center;
+        color: white;
+        font-weight: normal;
+        margin-bottom: 30px;
+        letter-spacing: 3px;
+        background-color: #895eb1;
+        border-radius: 40px;
+        width: 400px;
+        height: 220px;
+
+    }
+
+    .artigo p {
+        position: absolute;
+        left: 50px;
+        width: 300px;
+        text-align: center;
+        font-family: sans-serif;
+        font-size: smaller;
+        color: white;
+        font-weight: normal;
+        letter-spacing: 0.8px;
+    }
+
+    button {
+        position: absolute;
+        top: 300px;
+        left: 50px;
+        width: 300px;
+        height: 80px;
+        border-radius: 50px;
+        background-color: #FECD05;
+    }
+
+    .link1 {
+        font-family: 'roboto', sans-serif;
+        font-size: 30px;
+        font-weight: bolder;
+        color: #64047F;
+        text-decoration: none;
+    }
+
+    .sec2 {
+        position: absolute;
+        left: 38px;
+        /* background-color: #C26ECF; */
+        width: 640px;
+        height: 860px;
+        margin: none;
+        margin-top: 400px;
+    }
+
+    .titulo1 {
+        position: absolute;
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        font-size: 40px;
+        color: #FECD05;
+        font-weight: normal;
+        letter-spacing: 3px;
+    }
+
+    .copo2 {
+        position: absolute;
+        width: 500px;
+        top: 160px;
+        left: 20px;
+    }
+
+    .splash {
+        position: absolute;
+        width: 700px;
+        bottom: 80px;
+        left: -90px;
+    }
+
+    .artigo2 {
+        position: absolute;
+        width: 450px;
+        right: 127px;
+        top: 180px;
+        background-color: #895eb194;
+        border-radius: 40px;
+    }
+
+    article .titulo2 {
+        color: white;
+        font-family: sans-serif;
+        font-size: 35px;
+        letter-spacing: 1.5px;
+        margin-bottom: 100px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .artigo2 p {
+        line-height: 1.2;
+        text-align: center;
+        margin-left: 48px;
+    }
+
+    footer {
+        position: absolute;
+        width: 710px;
+        height: 120px;
+        background-color: #FECD05;
+        left: -30px;
+        bottom: -1290px;
+        margin-bottom: 0px;
+    }
+
+    .logo2 {
+        width: 200px;
+        line-height: 150px;
+    }
+
+    footer a {
+        position: absolute;
+        top: 50px;
+        left: 180px;
+        font-size: larger;
+        font-family: sans-serif;
+        color: white;
+    }
+
+    footer p {
+        position: absolute;
+        top: 50px;
+        right: 220px;
+        font-size: 15px;
+        font-family: sans-serif;
+        color: white;
+    }
+
+    .siga {
+        display: none;
+    }
+
+    .f {
+        position: absolute;
+        right: 160px;
+        top: 35px;
+        color: white;
+        padding-left: 30px;
+    }
+
+    .i {
+        position: absolute;
+        right: 100px;
+        top: 35px;
+        color: white;
+        padding-left: 30px;
+    }
+
+    .w {
+        position: absolute;
+        right: 40px;
+        top: 35px;
+        color: white;
+        padding-left: 30px;
+    }
+
+    .copy {
+        position: absolute;
+        top: 90px;
+        right: 30px;
+        color: #ffe993;
+    }
+
+
 }
