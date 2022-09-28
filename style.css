@@ -261,7 +261,7 @@ footer p {
 @media screen and (max-width: 360px) {
 
     body {
-        position: relative;
+        /* position: relative; */
         /* background: #731682; */
         width: 300px;
         /* margin: none; */
@@ -281,15 +281,15 @@ footer p {
     .folhaEsquerda {
         /* position: absolute; */
         width: 200px;
-        top: 0px;
-        left: -30px;
+        top: 10px;
+        left: 0px;
     }
 
     .folhaDireita {
         /* position: absolute; */
         width: 200px;
         top: 20px;
-        right: -380px;
+        right: -390px;
     }
 
     .sec1 {
@@ -302,12 +302,13 @@ footer p {
         position: absolute;
         width: 600px;
         top: 0px;
+        left: 50px;
     }
 
     .copo1 {
         position: absolute;
         width: 500px;
-        left: 90px;
+        left: 115px;
         top: 300px;
     }
 
@@ -318,7 +319,7 @@ footer p {
         position: absolute;
         width: 330px;
         top: 600px;
-        right: -100px;
+        right: -125px;
     }
 
     .artigo h1 {
@@ -384,6 +385,7 @@ footer p {
         color: #FECD05;
         font-weight: normal;
         letter-spacing: 3px;
+        left: 40px;
     }
 
     .copo2 {
@@ -403,7 +405,7 @@ footer p {
     .artigo2 {
         position: absolute;
         width: 450px;
-        right: 127px;
+        right: 88px;
         top: 180px;
         background-color: #895eb194;
         border-radius: 40px;
@@ -427,11 +429,11 @@ footer p {
 
     footer {
         position: absolute;
-        width: 710px;
+        width: 750px;
         height: 120px;
         background-color: #FECD05;
-        left: -30px;
-        bottom: -1290px;
+        left: 0px;
+        bottom: -1259px;
         margin-bottom: 0px;
     }
 
